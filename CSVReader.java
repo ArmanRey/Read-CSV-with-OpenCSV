@@ -10,8 +10,8 @@ public class CSVReader {
 
 	
 		try { 
-			String file="C:\\Users\\Administrator\\Desktop\\CSV\\Original_2_CSV.csv";
-			String file2="C:\\Users\\Administrator\\Desktop\\CSV\\Original_2_CSV_FINAL.csv";
+			String file="C:\\Users\\Administrator\\Desktop\\CSV\\Original_2_CSV.csv"; //File to read data
+			String file2="C:\\Users\\Administrator\\Desktop\\CSV\\Original_2_CSV_FINAL.csv"; //File to write data
 	        FileReader filereader = new FileReader(file); 
 	        FileWriter fileWriter = new FileWriter(file2); 
 	        //FileWriter fileWriter = new FileWriter(file2); 
